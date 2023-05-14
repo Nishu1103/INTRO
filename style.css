@@ -1,0 +1,248 @@
+:root{
+    --dark-blue: 1C0350;
+    
+}
+* {
+padding: 0rem;
+margin: 0rem;
+box-sizing: border-box;   
+scroll-behavior: smooth;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.625rem;
+}
+
+.portfolio{
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0rem;
+}
+nav ul li a {
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    border: solid rgb(28, 3, 80);
+    border-width: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.active{
+    color: red;
+}
+
+.active:hover {
+    background-color: yellow;
+}
+.a:hover{
+    background-color: rgb(209, 14, 14);
+}
+
+.text{
+    text-align: center;
+    padding: 4.125rem;
+    font-weight: bold;
+    color: yellow;
+    font-size: 200%;
+}
+
+.hero-container{
+    display: flex; 
+}
+.hero-image{
+    margin-top: 30rem;
+}
+.hero-image2{
+    margin-right: 0rem;
+}
+.hero-image3{
+    margin-top: 15rem;
+}
+.image-container{
+    text-align: right;
+    /* border: solid white; */
+}
+
+
+.about{
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.page2{
+    /* border: solid red; */
+    background-color: rgba(53, 3, 99, 1);
+}
+
+
+.about h1{
+    /* border: solid rgb(104, 24, 24); */
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 1.7rem;
+}
+.about img{
+    /* border: solid white; */
+    margin-right: 0rem;
+    float: right;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-text{
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.page3{
+    background-color:rgb(15, 3, 80) ;
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+/* .imgage02{
+    margin-right: 7rem;
+    float: right;
+    height: 41.25rem;
+    margin-top: 5rem;
+}*/
+
+.page3 h1{
+    display: inline;
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 1.7rem;
+}
+.page3 img{
+    margin-right: 6rem;
+    /* border: solid yellowgreen; */
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 25rem;
+    height: auto;
+}
+.page4{
+    /* border: solid red; */
+}
+
+.page4 h1{
+    display: inline;
+    text-align: left;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+.iit-image{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+
+}
+/* .frame a{
+    margin-top: 25rem;
+} */
+/* .btn{
+    margin-top: 25rem;
+} */
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25rem;
+    height: 80px;
+    width: 350px;
+    position: relative;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    border-radius: 10px;
+    }
+.btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background: #e0e5ec;
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 16px;
+    color: rgba(42, 52, 84, 1);
+    text-decoration: none;
+    }
+.btn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+.page5{
+    background-color: rgb(35, 3, 80);
+    /* border: solid red ; */
+}
+.project{
+    /* border: solid red ; */
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 1.7rem;
+} 
+.figma img{
+    /* border: solid yellow ; */
+    margin-top: 2.5rem;
+    height: auto;
+    width: 15rem;
+}
+.quant img{
+    /* border: solid yellow ; */
+
+    margin-top: 2.5rem;
+    margin-left: 73rem;
+    height: auto;
+    width: 20rem;
+    margin-bottom: 3rem;
+}
+.about h1:hover {
+    background-color: yellow;
+}
+.page3 h1:hover {
+    background-color: yellow;
+}
+.page4 h1:hover {
+    background-color: yellow;
+}
+.page5 h1:hover {
+    background-color: yellow;
+}
